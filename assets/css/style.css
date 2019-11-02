@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+/* .card-img-top {
+    border: 1px;
+    border-style: solid;
+} */
+
+h1, p {
+    color: rgb(58, 57, 57);
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/snacks-transparent.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#header {
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#header h1 {
+    margin-top: 0px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+#header span {
+    font-family: 'Coustard', serif;
+}
+
+#currentWordContainer {
+    width: 100%;
+    text-align: center;
+}
+
+#currentWordLabel {
+    text-align: center;
+    font-size: 2em;
+}
+#currentWord {
+    text-align: center;
+    font-size: 3em;
+}
+
+#wrongGuesses {
+    font-size: 2em;
+}
+
+.label {
+    font-size: 1em;
+    font-weight: bold;
+}
+.jumbotron {
+    height: 360px;
+}
